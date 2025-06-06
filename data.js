@@ -4775,7 +4775,7 @@ const data = [
   },
   {
     "SBD": "160189",
-    "Họ và tên": "Lê Quốc Hưng",
+    "Họ và tên": "Lê Quốc Hùng",
     "Trường": "THCS Vĩnh Thanh",
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3",
