@@ -6,8 +6,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "9.75",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0.5",
+    "UT": "nan",
+    "KK": "0.5",
     "Tổng điểm": "28"
   },
   {
@@ -17,8 +17,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "9.5",
     "Toán": "9.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "27.5"
   },
   {
@@ -28,8 +28,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "9.25",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "27.25"
   },
   {
@@ -39,8 +39,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "9",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "27.25"
   },
   {
@@ -50,8 +50,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "9.75",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0.5",
+    "UT": "nan",
+    "KK": "0.5",
     "Tổng điểm": "27.25"
   },
   {
@@ -61,8 +61,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "8.75",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "26.75"
   },
   {
@@ -72,8 +72,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "9",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "26.5"
   },
   {
@@ -83,8 +83,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "6.5",
     "Toán": "7.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "1.5",
+    "UT": "1",
+    "KK": "1.5",
     "Tổng điểm": "25.75"
   },
   {
@@ -94,8 +94,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "8.25",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25.75"
   },
   {
@@ -105,8 +105,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "9.5",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25.75"
   },
   {
@@ -116,8 +116,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "8.75",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25.75"
   },
   {
@@ -127,8 +127,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "8.25",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25.5"
   },
   {
@@ -138,8 +138,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "7.75",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25.25"
   },
   {
@@ -149,8 +149,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7.5",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25"
   },
   {
@@ -160,8 +160,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7.75",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "25"
   },
   {
@@ -171,8 +171,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "8",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "24.5"
   },
   {
@@ -182,8 +182,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "8",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "24.5"
   },
   {
@@ -193,8 +193,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "7.5",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "24.25"
   },
   {
@@ -204,8 +204,8 @@ const data = [
     "Ngữ văn": "9.75",
     "Tiếng Anh": "5.75",
     "Toán": "8",
-    "Điểm ưu tiên": "0.5",
-    "Điểm khuyến khích": "0",
+    "UT": "0.5",
+    "KK": "nan",
     "Tổng điểm": "24"
   },
   {
@@ -215,8 +215,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "7",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "24"
   },
   {
@@ -226,8 +226,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "6.5",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.75"
   },
   {
@@ -237,8 +237,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7.5",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.75"
   },
   {
@@ -248,8 +248,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "8.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.75"
   },
   {
@@ -259,8 +259,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "6.5",
     "Toán": "7",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "23.75"
   },
   {
@@ -270,8 +270,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6.75",
     "Toán": "8.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.5"
   },
   {
@@ -281,8 +281,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "7",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.25"
   },
   {
@@ -292,8 +292,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "7",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.25"
   },
   {
@@ -303,8 +303,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "9",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23.25"
   },
   {
@@ -314,8 +314,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "8.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23"
   },
   {
@@ -325,8 +325,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.25",
     "Toán": "9.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23"
   },
   {
@@ -336,8 +336,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "6.75",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23"
   },
   {
@@ -347,8 +347,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23"
   },
   {
@@ -358,8 +358,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "7.75",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "23"
   },
   {
@@ -369,8 +369,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "7.5",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -380,8 +380,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "5.75",
     "Toán": "8.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -391,8 +391,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "7.5",
     "Toán": "8.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -402,8 +402,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7.5",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -413,8 +413,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "8",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -424,8 +424,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "5.5",
     "Toán": "8.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.75"
   },
   {
@@ -435,8 +435,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "5.25",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.5"
   },
   {
@@ -446,8 +446,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "5.5",
     "Toán": "8.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.5"
   },
   {
@@ -457,8 +457,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "6.25",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.25"
   },
   {
@@ -468,8 +468,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22.25"
   },
   {
@@ -479,8 +479,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "7.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0.5",
-    "Điểm khuyến khích": "0",
+    "UT": "0.5",
+    "KK": "nan",
     "Tổng điểm": "22.25"
   },
   {
@@ -490,8 +490,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "8",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22"
   },
   {
@@ -501,8 +501,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "6.5",
     "Toán": "8.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22"
   },
   {
@@ -512,8 +512,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5.75",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "22"
   },
   {
@@ -523,8 +523,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.25",
     "Toán": "7.5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -534,8 +534,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "7",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -545,8 +545,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "7.75",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -556,8 +556,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -567,8 +567,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6.75",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -578,8 +578,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "5.25",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.75"
   },
   {
@@ -589,8 +589,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "6",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.5"
   },
   {
@@ -600,8 +600,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "6.5",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.5"
   },
   {
@@ -611,8 +611,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "7",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.5"
   },
   {
@@ -622,8 +622,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "6",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.5"
   },
   {
@@ -633,8 +633,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "7.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.5"
   },
   {
@@ -644,8 +644,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "7",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -655,8 +655,8 @@ const data = [
     "Ngữ văn": "9.25",
     "Tiếng Anh": "6",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -666,8 +666,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.75",
     "Toán": "6",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -677,8 +677,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -688,8 +688,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "6.25",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -699,8 +699,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "5.5",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -710,8 +710,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "5",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -721,8 +721,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "6.25",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21.25"
   },
   {
@@ -732,8 +732,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0.5",
+    "UT": "nan",
+    "KK": "0.5",
     "Tổng điểm": "21.25"
   },
   {
@@ -743,8 +743,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.75",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -754,8 +754,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "6.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -765,8 +765,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "6.25",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -776,8 +776,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "7.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -787,8 +787,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5.25",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -798,8 +798,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "7.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "21"
   },
   {
@@ -809,8 +809,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "5.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -820,8 +820,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "5.5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -831,8 +831,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "5.25",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -842,8 +842,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "6.5",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -853,8 +853,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.75",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -864,8 +864,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.75",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -875,8 +875,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "6",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.75"
   },
   {
@@ -886,19 +886,19 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "5.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.5"
   },
   {
     "SBD": "160045",
-    "Họ và tên": "Nguyễn Thị Hồng Cẩm",
+    "Họ và tên": "Nguyễn Thị Hồng Cầm",
     "Trường": "THCS Vĩnh Thanh",
     "Ngữ văn": "9.5",
     "Tiếng Anh": "6",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.5"
   },
   {
@@ -908,8 +908,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.75",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.5"
   },
   {
@@ -919,8 +919,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.25",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.5"
   },
   {
@@ -930,8 +930,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "6",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.5"
   },
   {
@@ -941,8 +941,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -952,8 +952,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -963,8 +963,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -974,8 +974,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "6.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -985,8 +985,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "7",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -996,8 +996,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "6.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20.25"
   },
   {
@@ -1007,8 +1007,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "6",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1018,8 +1018,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.5",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1029,8 +1029,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "6.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0.5",
-    "Điểm khuyến khích": "0",
+    "UT": "0.5",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1040,8 +1040,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.25",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1051,8 +1051,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1062,8 +1062,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "6.25",
     "Toán": "5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1073,8 +1073,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1084,8 +1084,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5.75",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "20"
   },
   {
@@ -1095,8 +1095,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "3.75",
     "Toán": "7.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1106,8 +1106,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2.5",
     "Toán": "8.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1117,8 +1117,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1128,8 +1128,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "7.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1139,8 +1139,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "3",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1150,8 +1150,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0.5",
-    "Điểm khuyến khích": "0",
+    "UT": "0.5",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1161,8 +1161,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.75",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1172,8 +1172,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4.75",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.75"
   },
   {
@@ -1183,8 +1183,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "6",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.5"
   },
   {
@@ -1194,8 +1194,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.5",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.5"
   },
   {
@@ -1205,8 +1205,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.5"
   },
   {
@@ -1216,8 +1216,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.5"
   },
   {
@@ -1227,8 +1227,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.75",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.5"
   },
   {
@@ -1238,8 +1238,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "4.25",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1249,8 +1249,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.25",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1260,8 +1260,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "6",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1271,8 +1271,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1282,8 +1282,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "6",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1293,8 +1293,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.5",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1304,8 +1304,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.75",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19.25"
   },
   {
@@ -1315,8 +1315,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "6",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1326,8 +1326,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "5.25",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1337,8 +1337,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "4",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1348,8 +1348,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4.75",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1359,8 +1359,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1370,8 +1370,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "6.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1381,8 +1381,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "2.5",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1392,8 +1392,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.5",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "19"
   },
   {
@@ -1403,8 +1403,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "4.5",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1414,8 +1414,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "5.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1425,8 +1425,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "5",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1436,8 +1436,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1447,8 +1447,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1458,8 +1458,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "4.25",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1469,8 +1469,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "6",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1480,8 +1480,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.75",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1491,8 +1491,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "5.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1502,8 +1502,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "5.5",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.75"
   },
   {
@@ -1513,8 +1513,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.5",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1524,8 +1524,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1535,8 +1535,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1546,8 +1546,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "4.5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1557,8 +1557,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1568,8 +1568,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "6.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1579,8 +1579,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.5",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.5"
   },
   {
@@ -1590,8 +1590,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1601,8 +1601,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.75",
     "Toán": "7.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1612,8 +1612,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1623,8 +1623,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2.25",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1634,8 +1634,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "3.75",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1645,8 +1645,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.75",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1656,8 +1656,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1667,8 +1667,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "3.5",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1678,8 +1678,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.5",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1689,8 +1689,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "4.5",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18.25"
   },
   {
@@ -1700,8 +1700,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "4.25",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "1",
+    "UT": "nan",
+    "KK": "1",
     "Tổng điểm": "18.25"
   },
   {
@@ -1711,8 +1711,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1722,8 +1722,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1733,8 +1733,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "4.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1744,8 +1744,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "6.25",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1755,8 +1755,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1766,8 +1766,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "2.5",
     "Toán": "7",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1777,8 +1777,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.25",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1788,8 +1788,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1799,8 +1799,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1810,8 +1810,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1821,8 +1821,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "18"
   },
   {
@@ -1832,8 +1832,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1843,8 +1843,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1854,8 +1854,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1865,8 +1865,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "5.25",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1876,8 +1876,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1887,8 +1887,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "7.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1898,8 +1898,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1909,8 +1909,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1920,8 +1920,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.75",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1931,8 +1931,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "8.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1942,8 +1942,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.75"
   },
   {
@@ -1953,8 +1953,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -1964,8 +1964,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "3.25",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -1975,8 +1975,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -1986,8 +1986,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.25",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -1997,8 +1997,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "6.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2008,8 +2008,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2019,8 +2019,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "6.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2030,8 +2030,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2041,8 +2041,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5.25",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2052,8 +2052,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "6.5",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2063,8 +2063,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2074,8 +2074,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.5"
   },
   {
@@ -2085,8 +2085,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "3.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2096,8 +2096,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "4.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2107,8 +2107,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2118,8 +2118,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "3",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2129,8 +2129,8 @@ const data = [
     "Ngữ văn": "9.5",
     "Tiếng Anh": "3.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2140,8 +2140,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2151,8 +2151,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "4",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2162,8 +2162,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "5.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2173,8 +2173,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2184,8 +2184,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "4",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2195,8 +2195,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2206,8 +2206,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.25",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2217,8 +2217,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "4.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2228,8 +2228,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2239,8 +2239,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.75",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17.25"
   },
   {
@@ -2250,8 +2250,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2261,8 +2261,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2272,8 +2272,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2283,8 +2283,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2294,8 +2294,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.25",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2305,8 +2305,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4.75",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2316,8 +2316,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "3.5",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2327,8 +2327,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2338,8 +2338,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "4.25",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2349,8 +2349,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2360,8 +2360,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2371,8 +2371,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2382,8 +2382,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.25",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2393,8 +2393,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.25",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "17"
   },
   {
@@ -2404,8 +2404,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2",
     "Toán": "7.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2415,8 +2415,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2426,8 +2426,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2437,8 +2437,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "4",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2448,8 +2448,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2459,8 +2459,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "1.75",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2470,8 +2470,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "6.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2481,8 +2481,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "4.5",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2492,8 +2492,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "5.75",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2503,8 +2503,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2514,8 +2514,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.75"
   },
   {
@@ -2525,8 +2525,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "1.25",
     "Toán": "6.6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2536,8 +2536,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2547,8 +2547,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2558,8 +2558,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2569,8 +2569,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "5.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2580,8 +2580,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "1.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2591,8 +2591,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "6",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2602,8 +2602,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2613,8 +2613,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2624,8 +2624,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.5"
   },
   {
@@ -2635,8 +2635,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "5.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2646,8 +2646,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2657,8 +2657,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2668,8 +2668,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2679,8 +2679,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2690,8 +2690,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "4",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2701,8 +2701,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2712,8 +2712,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2723,8 +2723,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2734,8 +2734,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2",
     "Toán": "6.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2745,8 +2745,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.5",
     "Toán": "6",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2756,8 +2756,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "3.25",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2767,8 +2767,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2778,8 +2778,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2789,8 +2789,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "6",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2800,8 +2800,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "16.25"
   },
   {
@@ -2811,8 +2811,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "4",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2822,8 +2822,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2833,8 +2833,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2844,8 +2844,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2855,8 +2855,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2866,8 +2866,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "16"
   },
   {
@@ -2877,8 +2877,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2888,8 +2888,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "6.25",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2899,8 +2899,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5.5",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2910,8 +2910,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2921,8 +2921,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2932,8 +2932,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2943,8 +2943,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2954,8 +2954,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2965,8 +2965,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "4.5",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2976,8 +2976,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.75",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2987,8 +2987,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -2998,8 +2998,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.75"
   },
   {
@@ -3009,8 +3009,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3020,8 +3020,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "4",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3031,8 +3031,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3042,8 +3042,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3053,8 +3053,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3064,8 +3064,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "4.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3075,8 +3075,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3086,8 +3086,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3097,8 +3097,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3108,8 +3108,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3119,8 +3119,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3130,8 +3130,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.5"
   },
   {
@@ -3141,8 +3141,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "5.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3152,8 +3152,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3163,8 +3163,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3174,8 +3174,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3185,8 +3185,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "2.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3196,8 +3196,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "4",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3207,8 +3207,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "4",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3218,8 +3218,8 @@ const data = [
     "Ngữ văn": "3.5",
     "Tiếng Anh": "3.75",
     "Toán": "8",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3229,8 +3229,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3240,8 +3240,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "4",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3251,8 +3251,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3262,8 +3262,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15.25"
   },
   {
@@ -3273,8 +3273,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3284,8 +3284,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3295,8 +3295,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3306,8 +3306,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3317,8 +3317,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "4.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3328,8 +3328,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "5.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3339,8 +3339,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "3.25",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3350,8 +3350,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "6.25",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3361,8 +3361,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3372,8 +3372,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3383,8 +3383,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "1.75",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3394,8 +3394,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3405,8 +3405,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3416,8 +3416,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "3.25",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3427,8 +3427,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "2",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3438,8 +3438,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "15"
   },
   {
@@ -3449,8 +3449,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.25",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3460,8 +3460,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3471,8 +3471,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.5",
     "Toán": "5.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3482,8 +3482,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "3.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3493,8 +3493,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3504,8 +3504,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3515,8 +3515,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3526,8 +3526,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3537,8 +3537,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3548,8 +3548,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "3.5",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3559,8 +3559,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3570,8 +3570,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3581,8 +3581,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "4",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3592,8 +3592,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.75"
   },
   {
@@ -3603,8 +3603,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3614,8 +3614,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3625,8 +3625,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "2.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3636,8 +3636,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "4.5",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3647,8 +3647,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3.25",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3658,8 +3658,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3669,8 +3669,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.75",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3680,8 +3680,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3691,8 +3691,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3702,8 +3702,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.5"
   },
   {
@@ -3713,8 +3713,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3724,8 +3724,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3735,8 +3735,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3746,8 +3746,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3757,8 +3757,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3768,8 +3768,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3779,8 +3779,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3790,8 +3790,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "4",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3801,8 +3801,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "3.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3812,8 +3812,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3823,8 +3823,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3834,8 +3834,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.5",
     "Toán": "6.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3845,8 +3845,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "4",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3856,8 +3856,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3867,8 +3867,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3878,8 +3878,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "5",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14.25"
   },
   {
@@ -3889,8 +3889,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3900,8 +3900,8 @@ const data = [
     "Ngữ văn": "9",
     "Tiếng Anh": "1.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3911,8 +3911,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3922,8 +3922,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "0.75",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3933,8 +3933,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3944,8 +3944,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3955,8 +3955,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3966,8 +3966,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "3.75",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3977,8 +3977,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "3.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3988,8 +3988,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "4",
     "Toán": "3.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -3999,8 +3999,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -4010,8 +4010,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "2.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -4021,8 +4021,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -4032,8 +4032,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -4043,8 +4043,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "14"
   },
   {
@@ -4054,8 +4054,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4065,8 +4065,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4076,8 +4076,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "4",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4087,8 +4087,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4098,8 +4098,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4109,8 +4109,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4120,8 +4120,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "1.75",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4131,8 +4131,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "3.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4142,8 +4142,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "1",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4153,8 +4153,8 @@ const data = [
     "Ngữ văn": "8.75",
     "Tiếng Anh": "2.75",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4164,8 +4164,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4175,8 +4175,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4186,8 +4186,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "1",
     "Toán": "5.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4197,8 +4197,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.5",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4208,8 +4208,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4219,8 +4219,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "2.25",
     "Toán": "6.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4230,8 +4230,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4241,8 +4241,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4252,8 +4252,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4263,8 +4263,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4274,8 +4274,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.75"
   },
   {
@@ -4285,8 +4285,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4296,8 +4296,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "4.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4307,8 +4307,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "2.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4318,8 +4318,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4329,8 +4329,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "1.75",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4340,8 +4340,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "3.75",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4351,8 +4351,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4362,8 +4362,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "3.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4373,8 +4373,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.75",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4384,8 +4384,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.5"
   },
   {
@@ -4395,8 +4395,8 @@ const data = [
     "Ngữ văn": "8.5",
     "Tiếng Anh": "3.25",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4406,8 +4406,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "1.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4417,8 +4417,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "2.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4428,8 +4428,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4439,8 +4439,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4450,8 +4450,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "4",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4461,8 +4461,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4472,8 +4472,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "1.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4483,8 +4483,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4494,8 +4494,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "3",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4505,8 +4505,8 @@ const data = [
     "Ngữ văn": "8.25",
     "Tiếng Anh": "1.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4516,8 +4516,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.75",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4527,8 +4527,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.75",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4538,8 +4538,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "4.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4549,8 +4549,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4560,8 +4560,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2",
     "Toán": "5.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4571,8 +4571,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4582,8 +4582,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "3.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13.25"
   },
   {
@@ -4593,8 +4593,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "3",
     "Toán": "2.5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4604,8 +4604,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "4.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4615,8 +4615,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4626,8 +4626,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4637,8 +4637,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4648,8 +4648,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4659,8 +4659,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4670,8 +4670,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4681,8 +4681,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "3",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4692,8 +4692,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.5",
     "Toán": "5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4703,8 +4703,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4714,8 +4714,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4725,8 +4725,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4736,8 +4736,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4747,8 +4747,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "3.25",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "13"
   },
   {
@@ -4758,8 +4758,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4769,19 +4769,19 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
     "SBD": "160189",
-    "Họ và tên": "Lê Quốc Hùng",
+    "Họ và tên": "Lê Quốc Hưng",
     "Trường": "THCS Vĩnh Thanh",
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4791,8 +4791,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4802,8 +4802,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.25",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4813,8 +4813,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4824,8 +4824,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "3",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4835,8 +4835,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4846,8 +4846,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4857,8 +4857,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "1.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.75"
   },
   {
@@ -4868,8 +4868,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "3",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4879,8 +4879,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4890,8 +4890,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4901,8 +4901,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4912,8 +4912,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4923,8 +4923,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "1.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4934,8 +4934,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4945,8 +4945,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4956,8 +4956,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "3.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4967,8 +4967,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "3.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4978,8 +4978,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "1.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.5"
   },
   {
@@ -4989,8 +4989,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "1.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5000,8 +5000,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5011,8 +5011,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5022,8 +5022,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5033,8 +5033,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5044,8 +5044,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "3.25",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5055,8 +5055,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5066,8 +5066,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5077,8 +5077,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5088,8 +5088,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12.25"
   },
   {
@@ -5099,8 +5099,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5110,8 +5110,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3",
     "Toán": "1",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5121,8 +5121,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "1.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5132,8 +5132,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5143,8 +5143,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5154,8 +5154,8 @@ const data = [
     "Ngữ văn": "7.5",
     "Tiếng Anh": "2.25",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5165,8 +5165,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5176,8 +5176,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5187,8 +5187,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5198,8 +5198,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5209,8 +5209,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "2.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5220,8 +5220,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "12"
   },
   {
@@ -5231,8 +5231,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5242,8 +5242,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "2.5",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5253,8 +5253,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5264,8 +5264,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5275,8 +5275,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5286,8 +5286,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2.5",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5297,8 +5297,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5308,8 +5308,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "3.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5319,8 +5319,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.25",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5330,8 +5330,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "3",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5341,8 +5341,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5352,8 +5352,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.5",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5363,8 +5363,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5374,8 +5374,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5385,8 +5385,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.25",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5396,8 +5396,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "3",
     "Toán": "1.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5407,8 +5407,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.25",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.75"
   },
   {
@@ -5418,8 +5418,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2",
     "Toán": "3.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5429,8 +5429,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "0.75",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5440,8 +5440,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "3.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5451,8 +5451,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.75",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5462,8 +5462,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.25",
     "Toán": "3.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5473,8 +5473,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "3.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5484,8 +5484,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5495,8 +5495,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.75",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5506,8 +5506,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2.75",
     "Toán": "3",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5517,8 +5517,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5528,8 +5528,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5539,8 +5539,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "2.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5550,8 +5550,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5561,8 +5561,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.25",
     "Toán": "2.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5572,8 +5572,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.25",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.5"
   },
   {
@@ -5583,8 +5583,8 @@ const data = [
     "Ngữ văn": "8",
     "Tiếng Anh": "1.25",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5594,8 +5594,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "3.5",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5605,8 +5605,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.75",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5616,8 +5616,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.75",
     "Toán": "2.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5627,8 +5627,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.75",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5638,8 +5638,8 @@ const data = [
     "Ngữ văn": "7.75",
     "Tiếng Anh": "1.5",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5649,8 +5649,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5660,8 +5660,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "2",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5671,8 +5671,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5682,8 +5682,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "2.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5693,8 +5693,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.5",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11.25"
   },
   {
@@ -5704,8 +5704,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "4",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5715,8 +5715,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "1.5",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5726,8 +5726,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5737,8 +5737,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.5",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5748,8 +5748,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5759,8 +5759,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.5",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5770,8 +5770,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5781,8 +5781,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2",
     "Toán": "2.75",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5792,8 +5792,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5803,8 +5803,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "11"
   },
   {
@@ -5814,8 +5814,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5825,8 +5825,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5836,8 +5836,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "1.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5847,8 +5847,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "2.25",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5858,8 +5858,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5869,8 +5869,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5880,8 +5880,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "3",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5891,8 +5891,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5902,8 +5902,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5913,8 +5913,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5924,8 +5924,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5935,8 +5935,8 @@ const data = [
     "Ngữ văn": "4.25",
     "Tiếng Anh": "3.25",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.75"
   },
   {
@@ -5946,8 +5946,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "2.5",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -5957,8 +5957,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.75",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -5968,8 +5968,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "3",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -5979,8 +5979,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "2.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -5990,8 +5990,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "1",
     "Toán": "4.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -6001,8 +6001,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -6012,8 +6012,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.25",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -6023,8 +6023,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.5"
   },
   {
@@ -6034,8 +6034,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "1.5",
     "Toán": "4.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6045,8 +6045,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.25",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6056,8 +6056,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.5",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6067,8 +6067,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "0.75",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6078,8 +6078,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6089,8 +6089,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6100,8 +6100,8 @@ const data = [
     "Ngữ văn": "3.75",
     "Tiếng Anh": "2.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6111,8 +6111,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.25",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6122,8 +6122,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "0.75",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6133,8 +6133,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6144,8 +6144,8 @@ const data = [
     "Ngữ văn": "7.25",
     "Tiếng Anh": "1.5",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6155,8 +6155,8 @@ const data = [
     "Ngữ văn": "7",
     "Tiếng Anh": "1.75",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10.25"
   },
   {
@@ -6166,8 +6166,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6177,8 +6177,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "1.5",
     "Toán": "4",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6188,8 +6188,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.5",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6199,8 +6199,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "1.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6210,8 +6210,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "2.25",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6221,8 +6221,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6232,8 +6232,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.75",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6243,8 +6243,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.25",
     "Toán": "3",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6254,8 +6254,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.25",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6265,8 +6265,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "10"
   },
   {
@@ -6276,8 +6276,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.75",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6287,8 +6287,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.25",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6298,8 +6298,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6309,8 +6309,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6320,8 +6320,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6331,8 +6331,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "2.75",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6342,8 +6342,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "1.75",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6353,8 +6353,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.25",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6364,8 +6364,8 @@ const data = [
     "Ngữ văn": "6.5",
     "Tiếng Anh": "2.25",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.75"
   },
   {
@@ -6375,8 +6375,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.75",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.5"
   },
   {
@@ -6386,8 +6386,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.5"
   },
   {
@@ -6397,8 +6397,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.5",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6408,8 +6408,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.5",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6419,8 +6419,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6430,8 +6430,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "2.25",
     "Toán": "0.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6441,8 +6441,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6452,8 +6452,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "3",
     "Toán": "0.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9.25"
   },
   {
@@ -6463,8 +6463,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2.5",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6474,8 +6474,8 @@ const data = [
     "Ngữ văn": "4",
     "Tiếng Anh": "1.75",
     "Toán": "3.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6485,8 +6485,8 @@ const data = [
     "Ngữ văn": "6.75",
     "Tiếng Anh": "1.25",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6496,8 +6496,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2",
     "Toán": "0",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6507,8 +6507,8 @@ const data = [
     "Ngữ văn": "4",
     "Tiếng Anh": "2.5",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6518,8 +6518,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1.75",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6529,8 +6529,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6540,8 +6540,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.5",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6551,8 +6551,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6562,8 +6562,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2.25",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "9"
   },
   {
@@ -6573,8 +6573,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2.25",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.75"
   },
   {
@@ -6584,8 +6584,8 @@ const data = [
     "Ngữ văn": "4",
     "Tiếng Anh": "1.25",
     "Toán": "3.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.75"
   },
   {
@@ -6595,8 +6595,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "1.75",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6606,8 +6606,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "2.5",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6617,8 +6617,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "1.75",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6628,8 +6628,8 @@ const data = [
     "Ngữ văn": "6.25",
     "Tiếng Anh": "1",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6639,8 +6639,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "2.5",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6650,8 +6650,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6661,8 +6661,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.25",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.5"
   },
   {
@@ -6672,8 +6672,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.25"
   },
   {
@@ -6683,8 +6683,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "1.25",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.25"
   },
   {
@@ -6694,8 +6694,8 @@ const data = [
     "Ngữ văn": "4.25",
     "Tiếng Anh": "1.5",
     "Toán": "2.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.25"
   },
   {
@@ -6705,8 +6705,8 @@ const data = [
     "Ngữ văn": "4",
     "Tiếng Anh": "2.5",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.25"
   },
   {
@@ -6716,8 +6716,8 @@ const data = [
     "Ngữ văn": "6",
     "Tiếng Anh": "2",
     "Toán": "0.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8.25"
   },
   {
@@ -6727,8 +6727,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "2",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8"
   },
   {
@@ -6738,8 +6738,8 @@ const data = [
     "Ngữ văn": "5.5",
     "Tiếng Anh": "1.25",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8"
   },
   {
@@ -6749,8 +6749,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "8"
   },
   {
@@ -6760,8 +6760,8 @@ const data = [
     "Ngữ văn": "4",
     "Tiếng Anh": "1",
     "Toán": "2.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6771,8 +6771,8 @@ const data = [
     "Ngữ văn": "4.25",
     "Tiếng Anh": "2.25",
     "Toán": "1.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6782,8 +6782,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "2.25",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6793,8 +6793,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "1.5",
     "Toán": "1.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6804,8 +6804,8 @@ const data = [
     "Ngữ văn": "5.75",
     "Tiếng Anh": "1.5",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6815,8 +6815,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "2.5",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6826,8 +6826,8 @@ const data = [
     "Ngữ văn": "3",
     "Tiếng Anh": "3.5",
     "Toán": "2.25",
-    "Điểm ưu tiên": "1",
-    "Điểm khuyến khích": "0",
+    "UT": "1",
+    "KK": "nan",
     "Tổng điểm": "7.75"
   },
   {
@@ -6837,8 +6837,8 @@ const data = [
     "Ngữ văn": "4.75",
     "Tiếng Anh": "1.75",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7.25"
   },
   {
@@ -6848,8 +6848,8 @@ const data = [
     "Ngữ văn": "4.25",
     "Tiếng Anh": "1.75",
     "Toán": "1",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "7"
   },
   {
@@ -6859,8 +6859,8 @@ const data = [
     "Ngữ văn": "5.25",
     "Tiếng Anh": "1.5",
     "Toán": "0",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6.75"
   },
   {
@@ -6870,8 +6870,8 @@ const data = [
     "Ngữ văn": "4.5",
     "Tiếng Anh": "1.25",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6.25"
   },
   {
@@ -6881,8 +6881,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "1.25",
     "Toán": "0",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6.25"
   },
   {
@@ -6892,8 +6892,8 @@ const data = [
     "Ngữ văn": "3.5",
     "Tiếng Anh": "0.75",
     "Toán": "2",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6.25"
   },
   {
@@ -6903,8 +6903,8 @@ const data = [
     "Ngữ văn": "5",
     "Tiếng Anh": "0.5",
     "Toán": "0.5",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6"
   },
   {
@@ -6914,8 +6914,8 @@ const data = [
     "Ngữ văn": "3.5",
     "Tiếng Anh": "1.75",
     "Toán": "0.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "6"
   },
   {
@@ -6925,8 +6925,8 @@ const data = [
     "Ngữ văn": "2.75",
     "Tiếng Anh": "0.25",
     "Toán": "1.75",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "4.75"
   },
   {
@@ -6936,8 +6936,8 @@ const data = [
     "Ngữ văn": "1.5",
     "Tiếng Anh": "2",
     "Toán": "0.25",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "3.75"
   },
   {
@@ -6945,10 +6945,10 @@ const data = [
     "Họ và tên": "Lê Ninh",
     "Trường": "THCS Vĩnh Phú Tây",
     "Ngữ văn": "0",
-    "Tiếng Anh": "0",
-    "Toán": "0",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "Tiếng Anh": "nan",
+    "Toán": "nan",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "0"
   },
   {
@@ -6958,8 +6958,8 @@ const data = [
     "Ngữ văn": "-",
     "Tiếng Anh": "-",
     "Toán": "-",
-    "Điểm ưu tiên": "0",
-    "Điểm khuyến khích": "0",
+    "UT": "nan",
+    "KK": "nan",
     "Tổng điểm": "0"
   }
 ];

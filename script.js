@@ -1,3 +1,4 @@
+
 function traCuu() {
   const sbd = document.getElementById("sbdInput").value.trim();
   const ketQuaDiv = document.getElementById("ketQua");
@@ -13,10 +14,11 @@ function traCuu() {
       ketQua = tongDiem >= 11.25 ? "✅ Đạt" : "❌ Trượt";
     }
 
-
+    const ut = isNaN(parseFloat(hs["UT"])) ? "0" : hs["UT"];
+    const kk = isNaN(parseFloat(hs["KK"])) ? "0" : hs["KK"];
 
     ketQuaDiv.innerHTML = `
-      <table>
+      <table class="result-table">
         <tr><th>Họ và tên</th><td>${hs["Họ và tên"]}</td></tr>
         <tr><th>Trường</th><td>${hs["Trường"]}</td></tr>
         <tr><th>Ngữ văn</th><td>${hs["Ngữ văn"]}</td></tr>
@@ -24,7 +26,7 @@ function traCuu() {
         <tr><th>Toán</th><td>${hs["Toán"]}</td></tr>
         <tr><th>Điểm ưu tiên</th><td>${ut}</td></tr>
         <tr><th>Điểm khuyến khích</th><td>${kk}</td></tr>
-        <tr style="font-weight:bold;"><th>Tổng điểm</th><td style="font-size:1.4em;">${hs["Tổng điểm"]}</td></tr>
+        <tr><th style="font-size: 1.1em;">Tổng điểm</th><td style="font-size: 1.4em; font-weight: bold;">${hs["Tổng điểm"]}</td></tr>
         <tr><th>Kết quả</th><td>${ketQua}</td></tr>
       </table>
     `;
