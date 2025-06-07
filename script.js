@@ -27,7 +27,7 @@ function traCuu() {
         <tr><th>Điểm ưu tiên</th><td>${ut}</td></tr>
         <tr><th>Điểm khuyến khích</th><td>${kk}</td></tr>
         <tr><th style="font-size: 1.1em;">Tổng điểm</th><td style="font-size: 1.4em; font-weight: bold;">${hs["Tổng điểm"]}</td></tr>
-        <tr><th>Kết quả(dự kiến): </th><td>${ketQua}</td></tr>
+        <tr><th>Kết quả</th><td>${ketQua}</td></tr>
       </table>
     `;
   }
