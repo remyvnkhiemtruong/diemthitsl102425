@@ -13,9 +13,7 @@ function traCuu() {
       ketQua = tongDiem >= 11.25 ? "✅ Đạt" : "❌ Trượt";
     }
 
-    // Kiểm tra UT và KK, nếu NaN thì gán 0
-    const ut = isNaN(parseFloat(hs["UT"])) ? "0" : hs["UT"];
-    const kk = isNaN(parseFloat(hs["KK"])) ? "0" : hs["KK"];
+
 
     ketQuaDiv.innerHTML = `
       <table>
