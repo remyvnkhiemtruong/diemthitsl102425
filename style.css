@@ -1,97 +1,115 @@
+/* Reset & nền */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f4f8;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f7fb;
   margin: 0;
   padding: 0;
 }
 
+/* Giao diện chính */
 .container {
   max-width: 500px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #fff;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px 20px;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
+/* Logo */
 .logo {
   width: 100px;
   margin-bottom: 20px;
 }
 
+/* Tiêu đề */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Ô nhập và nút */
 input[type="text"] {
   width: 80%;
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
-  margin: 10px 0;
   border-radius: 6px;
   border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 10px 24px;
   font-size: 16px;
-  background: #007bff;
-  color: white;
+  background-color: #007bff;
   border: none;
   border-radius: 6px;
+  color: #fff;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 button:hover {
-  background: #0056b3;
+  background-color: #0056b3;
 }
 
+/* Kết quả */
 .result {
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 15px;
-  background: #f9f9f9;
   border-radius: 8px;
+  background-color: #f1f1f1;
+  font-size: 15px;
+  line-height: 1.5;
   min-height: 40px;
 }
 
-/* 🔔 Phần Lưu ý */
+/* Thông báo lưu ý */
 .notice-box {
-  text-align: left;
-  background: #fff3cd;
-  color: #856404;
-  border: 1px solid #ffeeba;
-  border-radius: 8px;
-  padding: 15px;
   margin-top: 20px;
+  padding: 15px 20px;
+  background-color: #fffbea;
+  color: #856404;
+  border-left: 5px solid #ffc107;
+  border-radius: 8px;
+  text-align: left;
   font-size: 14px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
 }
 
-.notice-box h3 {
-  margin-top: 0;
-  font-size: 16px;
+.notice-box .pin {
+  font-size: 18px;
+  color: #e83e8c;
+  margin-right: 6px;
 }
 
+.notice-box ul {
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+.notice-box li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
 footer {
-  margin-top: 40px;
-  padding: 15px;
-  background-color: #ddd;
   text-align: center;
   font-size: 14px;
+  background-color: #e9ecef;
+  padding: 15px;
+  margin-top: 50px;
+  color: #444;
 }
 
-table {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  background: #fafafa;
+footer a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-th {
-  background-color: #007bff;
-  color: white;
-  text-align: left;
-}
-
-td, th {
-  padding: 10px;
-  border: 1px solid #ccc;
+footer a:hover {
+  text-decoration: underline;
 }
