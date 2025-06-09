@@ -540,7 +540,7 @@ const data = [
   },
   {
     "SBD": "160420",
-    "Họ và tên": "Nguyễn Thùyên Quyên",
+    "Họ và tên": "Nguyễn Thuyền Quyên",
     "Trường": "THCS Xã Phước Long",
     "Ngữ văn": "7.25",
     "Tiếng Anh": "7.75",
