@@ -57,7 +57,7 @@ const data = [
   {
     "SBD": "160214",
     "Họ và tên": "Cao Kim Khánh",
-    "Trường": "THCS Trương Vĩnh Ký",
+    "Trường": "THCS TT Phước Long",
     "Ngữ văn": "9.25",
     "Tiếng Anh": "8.75",
     "Toán": "8.75",
