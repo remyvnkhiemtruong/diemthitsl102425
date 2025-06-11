@@ -75,5 +75,48 @@
     <h5 class="text-center mb-3">📊 Biểu đồ thống kê theo trường</h5>
     <canvas id="chartSchool"></canvas>
   </div>
+
+<!-- Modal chi tiết học sinh -->
+<div class="modal fade" id="detailModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Thông tin học sinh</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-footer">
+        <button class="btn btn-outline-primary" onclick="exportPDF()">📄 Xuất PDF</button>
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Thống kê học lực, lớp, môn -->
+<div class="mt-5">
+  <h5 class="text-center mb-3">📊 Biểu đồ học lực</h5>
+  <canvas id="chartHocLuc" class="mb-4"></canvas>
+
+  <h5 class="text-center mb-3">📘 Biểu đồ điểm trung bình theo lớp</h5>
+  <canvas id="chartLop" class="mb-4"></canvas>
+
+  <h5 class="text-center mb-3">📚 Biểu đồ điểm trung bình theo môn</h5>
+  <canvas id="chartMon" class="mb-4"></canvas>
+</div>
+
+<!-- Đa ngôn ngữ -->
+<div class="text-end mt-4 no-print">
+  <select id="langSelect" class="form-select form-select-sm w-auto d-inline" onchange="setLang(this.value)">
+    <option value="vi">🇻🇳 Tiếng Việt</option>
+    <option value="en">🇬🇧 English</option>
+  </select>
+</div>
+
+
+<footer class="text-center mt-5 text-muted small no-print">
+  <hr/>
+  <p>© 2025 – Hệ thống tra cứu tuyển sinh. Thiết kế và phát triển bởi <strong>Truong Minh Khiem</strong> (A6 – Khóa 2023–2026).</p>
+</footer>
 </body>
 </html>
