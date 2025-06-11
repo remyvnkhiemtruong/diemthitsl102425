@@ -1,5 +1,7 @@
 # diemthitsl102425
 
-This repository contains a simple web page for checking entrance exam scores.
-Open `index.html` in a browser, enter a student's SBD, and the results will be
-displayed from the data stored in `data.js`.
+This repository contains a simple web page for looking up entrance exam scores.
+Open `index.html` in a browser and enter a student's SBD or name to see the
+results from `data.js`. Press **Enter** or click the **Tra cứu** button. Use the
+**Xem thống kê** button for detailed statistics including average subject scores,
+pass rate and top/bottom rankings.
