@@ -1,4 +1,3 @@
-
 function traCuu() {
   const sbd = document.getElementById("sbdInput").value.trim();
   const ketQuaDiv = document.getElementById("ketQua");
