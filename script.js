@@ -41,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     renderTable();
   };
   document.head.appendChild(script);
+    if (localStorage.getItem("darkMode") === "true") {
+    document.body.classList.add("dark-mode");
+  }
 });
 
 function populateFilters() {
@@ -119,6 +122,11 @@ function startApp() {
   document.getElementById("mainApp").classList.remove("d-none");
 }
 
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+  localStorage.setItem("darkMode", document.body.classList.contains("dark-mode"));
+}
+
 function showDetail(s) {
   const b = document.getElementById("modalBody");
   b.innerHTML = `
@@ -167,16 +175,27 @@ function drawCharts(data) {
   const ctxHL = document.getElementById("chartHocLuc").getContext("2d");
   const ctxLop = document.getElementById("chartLop").getContext("2d");
   const ctxMon = document.getElementById("chartMon").getContext("2d");
+  const ctxSchool = document.getElementById("chartSchool").getContext("2d");
 
   if (window.hlChart) window.hlChart.destroy();
   if (window.lopChart) window.lopChart.destroy();
   if (window.monChart) window.monChart.destroy();
+  if (window.schoolChart) window.schoolChart.destroy();
 
   window.hlChart = new Chart(ctxHL, {
     type: "pie",
     data: {
       labels: Object.keys(hocLuc),
       datasets: [{ data: Object.values(hocLuc), backgroundColor: ["#0d6efd", "#198754", "#ffc107", "#dc3545"] }]
+    }
+  });
+
+  const schoolStats = groupAvg("Trường", "Tổng điểm");
+  window.schoolChart = new Chart(ctxSchool, {
+    type: "bar",
+    data: {
+      labels: schoolStats.map(i => i.key),
+      datasets: [{ label: "TB điểm", data: schoolStats.map(i => i.avg), backgroundColor: "#6f42c1" }]
     }
   });
 
