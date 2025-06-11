@@ -131,3 +131,17 @@ footer a:hover {
 .result-table td {
   background-color: #fff;
 }
+
+.stats {
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.stats ol {
+  padding-left: 20px;
+}
+
