@@ -1,77 +1,77 @@
-<!-- GIAI DOAN 1 + 2 + 3: THIET KE GIAO DIEN + GOOGLE SHEETS + IMPORT CSV -->
+<!-- GIAI ĐOẠN FULL: GIAO DIỆN MỚI, GOOGLE SHEETS, CSV, THỐNG KÊ, XUẤT PDF -->
 <!DOCTYPE html>
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tra cứu tuyển sinh</title>
+  <title>Tra cứu điểm tuyển sinh</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="logo.png" />
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <div class="max-w-3xl mx-auto p-4">
-    <!-- Logo + Tiêu đề -->
-    <div class="flex flex-col items-center mb-6">
-      <img src="logo.png" alt="Logo" class="w-24 mb-2" />
-      <h1 class="text-2xl font-bold text-blue-600">Tra cứu điểm tuyển sinh lớp 10</h1>
-    </div>
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+  <div class="max-w-4xl mx-auto py-8 px-4">
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <img src="logo.png" alt="Logo" class="mx-auto w-20 mb-4" />
+      <h1 class="text-3xl font-bold text-blue-700">Hệ thống tra cứu điểm tuyển sinh</h1>
+      <p class="text-sm text-gray-500">Dành cho học sinh thi vào lớp 10 - THPT</p>
+    </header>
 
-    <!-- Ô nhập + nút tra cứu -->
-    <div class="flex flex-col sm:flex-row gap-2 items-center justify-center mb-4">
-      <input type="text" id="sbdInput" placeholder="Nhập số báo danh hoặc họ tên"
-        class="w-full sm:w-2/3 px-4 py-2 border border-gray-300 rounded-md shadow-sm" />
-      <button onclick="traCuu()"
-        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-md">Tra cứu</button>
-    </div>
-
-    <!-- Nút thống kê và Dark Mode -->
-    <div class="flex flex-wrap gap-2 justify-center mb-4">
-      <button onclick="hienThiThongKe()" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Thống kê</button>
-      <button onclick="toggleDarkMode()" class="bg-gray-600 hover:bg-gray-700 text-white px-5 py-2 rounded">Dark Mode</button>
-      <button onclick="xuatPDF()" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded">Xuất PDF</button>
-    </div>
+    <!-- Form tra cứu -->
+    <section class="bg-white p-6 rounded shadow mb-6">
+      <div class="flex flex-col md:flex-row items-center gap-4">
+        <input type="text" id="sbdInput" placeholder="Nhập số báo danh hoặc họ tên"
+          class="flex-1 px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button onclick="traCuu()"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded">Tra cứu</button>
+      </div>
+      <div class="flex flex-wrap gap-2 mt-4 justify-center">
+        <button onclick="hienThiThongKe()" class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded">Thống kê</button>
+        <button onclick="toggleDarkMode()" class="bg-gray-600 hover:bg-gray-700 text-white px-5 py-2 rounded">Chế độ tối</button>
+        <button onclick="xuatPDF()" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded">Xuất PDF</button>
+      </div>
+    </section>
 
     <!-- Import file CSV -->
-    <div class="flex justify-center mb-4">
-      <input type="file" id="csvFileInput" accept=".csv" class="text-sm" />
+    <div class="bg-white p-4 rounded shadow mb-6 text-sm">
+      <label class="block mb-2 font-medium">Nhập dữ liệu từ file CSV:</label>
+      <input type="file" id="csvFileInput" accept=".csv" class="block w-full" />
     </div>
 
     <!-- Kết quả tra cứu -->
-    <div id="ketQua" class="bg-white rounded-md shadow p-4 mb-4"></div>
+    <section id="ketQua" class="bg-white p-6 rounded shadow mb-6"></section>
 
     <!-- Thống kê -->
-    <div id="thongKe" class="bg-white rounded-md shadow p-4"></div>
+    <section id="thongKe" class="bg-white p-6 rounded shadow whitespace-pre-line font-mono text-sm"></section>
 
     <!-- Lưu ý -->
-    <div class="mt-6 bg-yellow-100 border-l-4 border-yellow-500 p-4">
-      <h2 class="font-bold text-yellow-700 mb-2">Lưu ý:</h2>
-      <ul class="list-disc pl-5 text-sm text-yellow-800">
-        <li>Hệ thống hỗ trợ tìm theo số báo danh hoặc tên (không phân biệt chữ hoa/thường).</li>
-        <li>Có thể nhập dữ liệu từ Google Sheet hoặc file CSV.</li>
-        <li>Kết quả mang tính chất tham khảo. Hãy liên hệ trường để biết thêm thông tin.</li>
-        <li>Click "Xuất PDF" để tải phiếu điểm cá nhân.</li>
-        <li>Click "Thống kê" để xem biểu đồ, phân tích điểm.</li>
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 text-sm text-yellow-900">
+      <h2 class="font-bold mb-2">📌 Lưu ý:</h2>
+      <ul class="list-disc pl-5 space-y-1">
+        <li>Tìm kiếm theo SBD hoặc tên (không phân biệt chữ hoa/thường).</li>
+        <li>Hỗ trợ dữ liệu từ Google Sheets hoặc tệp CSV tải lên.</li>
+        <li>Thông tin chỉ mang tính chất tham khảo, vui lòng liên hệ trường để biết thêm chi tiết.</li>
+        <li>Bạn có thể in hoặc lưu điểm bằng nút "Xuất PDF".</li>
       </ul>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-xs text-gray-500 mt-6">
-      © 2025 - Developed by Truong Minh Khiem - A6 THPT VVK <br/>
-      <a href="https://facebook.com/remyvn.khiemtruong" target="_blank" class="text-blue-500 hover:underline">Facebook liên hệ</a>
+    <footer class="text-center text-xs text-gray-500 mt-12">
+      © 2025 - Thiết kế bởi Truong Minh Khiem - A6 THPT VVK <br />
+      <a href="https://facebook.com/remyvn.khiemtruong" target="_blank" class="text-blue-500 hover:underline">Liên hệ Facebook</a>
     </footer>
   </div>
 
   <script>
     let data = [];
 
-    // Giai đoạn 2: Lấy dữ liệu từ Google Sheets công khai (chế độ "publish to web")
-    const GOOGLE_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1v.../pub?output=csv';
+    const GOOGLE_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1WP0pf4zxKbsJyF0mrs2ppHUMxTlRzrLi9rEIpocqrXM/export?format=csv';
 
     function fetchDataFromGoogleSheet() {
       fetch(GOOGLE_SHEET_URL)
         .then(res => res.text())
         .then(csv => parseCSV(csv))
-        .catch(err => alert("Không thể tải dữ liệu Google Sheet"));
+        .catch(() => alert("Không thể tải dữ liệu từ Google Sheets."));
     }
 
     function parseCSV(csvText) {
@@ -79,9 +79,9 @@
       const headers = lines[0].split(',');
       data = lines.slice(1).map(row => {
         const values = row.split(',');
-        const entry = {};
-        headers.forEach((key, i) => entry[key.trim()] = values[i]?.trim());
-        return entry;
+        const obj = {};
+        headers.forEach((key, i) => obj[key.trim()] = values[i]?.trim());
+        return obj;
       });
     }
 
@@ -96,12 +96,11 @@
     function traCuu() {
       const val = document.getElementById("sbdInput").value.trim().toLowerCase();
       const ketQua = document.getElementById("ketQua");
-      if (!val) return ketQua.innerHTML = "<p class='text-red-600'>Vui lòng nhập SBD hoặc tên</p>";
+      if (!val) return ketQua.innerHTML = "<p class='text-red-600'>Vui lòng nhập SBD hoặc tên.</p>";
+      const matched = data.filter(d => d['SBD']?.toLowerCase() === val || d['Họ và tên']?.toLowerCase().includes(val));
+      if (!matched.length) return ketQua.innerHTML = "<p class='text-red-600'>Không tìm thấy thí sinh.</p>";
 
-      const matches = data.filter(d => d['SBD']?.toLowerCase() === val || d['Họ và tên']?.toLowerCase().includes(val));
-      if (matches.length === 0) return ketQua.innerHTML = "<p class='text-red-600'>Không tìm thấy thí sinh</p>";
-
-      const hs = matches[0];
+      const hs = matched[0];
       ketQua.innerHTML = `
         <table class="table-auto w-full text-sm">
           <tr><td class='font-bold'>Họ và tên:</td><td>${hs['Họ và tên']}</td></tr>
@@ -116,11 +115,42 @@
 
     function hienThiThongKe() {
       const thongKe = document.getElementById("thongKe");
-      if (!data.length) return thongKe.innerHTML = "<p class='text-red-500'>Không có dữ liệu thống kê</p>";
+      if (!data.length) return thongKe.innerHTML = "<p class='text-red-500'>Không có dữ liệu thống kê.</p>";
 
-      const tong = data.reduce((sum, hs) => sum + parseFloat(hs['Tổng điểm'] || 0), 0);
-      const tb = (tong / data.length).toFixed(2);
-      thongKe.innerHTML = `<p>Điểm trung bình toàn khối: <strong>${tb}</strong></p>`;
+      const students = data.filter(hs => !isNaN(parseFloat(hs['Tổng điểm'])));
+      const total = students.reduce((sum, hs) => sum + parseFloat(hs['Tổng điểm']), 0);
+      const avg = (total / students.length).toFixed(2);
+      const tbVan = (students.reduce((s, hs) => s + parseFloat(hs['Ngữ văn']), 0) / students.length).toFixed(2);
+      const tbAnh = (students.reduce((s, hs) => s + parseFloat(hs['Tiếng Anh']), 0) / students.length).toFixed(2);
+      const tbToan = (students.reduce((s, hs) => s + parseFloat(hs['Toán']), 0) / students.length).toFixed(2);
+      const max = Math.max(...students.map(hs => parseFloat(hs['Tổng điểm'])));
+      const min = Math.min(...students.map(hs => parseFloat(hs['Tổng điểm'])));
+      const passed = students.filter(hs => parseFloat(hs['Tổng điểm']) >= 11.25).length;
+      const rate = ((passed / students.length) * 100).toFixed(2);
+
+      const top10 = [...students].sort((a, b) => parseFloat(b['Tổng điểm']) - parseFloat(a['Tổng điểm'])).slice(0, 10);
+      const bot10 = [...students].sort((a, b) => parseFloat(a['Tổng điểm']) - parseFloat(b['Tổng điểm'])).slice(0, 10);
+
+      const topHtml = top10.map((s, i) => `${i + 1}. ${s['Họ và tên']} (${s['SBD']}) - ${s['Tổng điểm']}`).join('\n');
+      const botHtml = bot10.map((s, i) => `${i + 1}. ${s['Họ và tên']} (${s['SBD']}) - ${s['Tổng điểm']}`).join('\n');
+
+      thongKe.innerHTML = `
+📊 Thống kê
+Số lượng thí sinh: ${students.length}
+Điểm trung bình: ${avg}
+Điểm TB Ngữ văn: ${tbVan}
+Điểm TB Tiếng Anh: ${tbAnh}
+Điểm TB Toán: ${tbToan}
+Điểm cao nhất: ${max}
+Điểm thấp nhất: ${min}
+Số thí sinh đạt: ${passed} (${rate}%)
+
+Top 10 thí sinh có điểm cao nhất:
+${topHtml}
+
+Top 10 thí sinh có điểm thấp nhất:
+${botHtml}
+      `;
     }
 
     function toggleDarkMode() {
@@ -132,7 +162,6 @@
       window.print();
     }
 
-    // Tự động tải dữ liệu Google Sheet nếu không dùng file CSV
     fetchDataFromGoogleSheet();
   </script>
 </body>
