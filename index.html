@@ -61,6 +61,12 @@
       <div class="col-md-1 d-grid"><button id="filterBtn" class="btn btn-primary" onclick="renderTable()">Lọc</button></div>
     </div>
 
+    <div class="d-flex gap-2 mb-3 no-print">
+      <button id="csvBtn" class="btn btn-success" onclick="exportCSV()">⬇️ CSV</button>
+      <button id="topBtn" class="btn btn-info" onclick="toggleTop()">🏆 Top 10</button>
+    </div>
+
+
     <div class="form-check form-switch no-print mb-3">
       <input class="form-check-input" type="checkbox" role="switch" id="toggleCard" onchange="renderTable()">
      <label id="labelShowCard" class="form-check-label" for="toggleCard">Hiển thị dạng thẻ học sinh</label>
@@ -79,6 +85,19 @@
     </div>
 
     <div class="row d-none" id="cardContainer"></div>
+
+    <div id="topContainer" class="mt-4 d-none">
+      <h5 class="text-center mb-3">🏆 Top 10</h5>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle">
+          <thead class="table-dark">
+            <tr><th>#</th><th>SBD</th><th>Họ và tên</th><th>Tổng</th></tr>
+          </thead>
+          <tbody id="topBody"></tbody>
+        </table>
+      </div>
+    </div>
+
 
     <div class="text-center text-danger d-none" id="noResult">Không tìm thấy kết quả phù hợp.</div>
 
