@@ -11,11 +11,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script defer src="script.js"></script>
   <style>
-    body.dark-mode { background-color: #121212; color: white; }
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --card-bg: #ffffff;
+    }
+    body { background-color: var(--bg-color); color: var(--text-color); }
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #ffffff;
+      --card-bg: #2c2c2c;
+    }
     .dark-mode .table, .dark-mode .form-control, .dark-mode .form-select { background-color: #1e1e1e; color: white; }
     .highlight-fail { background-color: #ffe5e5; }
-    .card-student { border: 1px solid #ddd; border-radius: 10px; padding: 1rem; margin-bottom: 1rem; background-color: #fff; }
-    .dark-mode .card-student { background-color: #2c2c2c; color: white; }
+    .card-student { border: 1px solid #ddd; border-radius: 10px; padding: 1rem; margin-bottom: 1rem; background-color: var(--card-bg); }
     .btn-toggle-mode { position: absolute; top: 1rem; right: 1rem; z-index: 100; }
     @media print {
       .no-print, .form-control, .form-select, .btn { display: none !important; }
@@ -27,17 +36,17 @@
   <!-- Landing Page -->
   <div id="landingPage" class="container text-center py-5">
     <img src="logo.png" alt="Logo" style="max-width:120px;" class="mb-3">
-    <h1 class="text-primary">Trường THPT Võ Văn Kiệt</h1>
-    <h4 class="mb-3">Hệ thống tra cứu điểm tuyển sinh lớp 10 (2025 - 2026)</h4>
-    <p class="text-muted">Dữ liệu mang tính tham khảo. Mọi sai sót vui lòng liên hệ nhà trường.</p>
-    <button class="btn btn-primary btn-lg" onclick="startApp()">🚀 Bắt đầu tra cứu</button>
+    <h1 class="text-primary" id="landingTitle">Trường THPT Võ Văn Kiệt</h1>
+    <h4 class="mb-3" id="landingSubtitle">Hệ thống tra cứu điểm tuyển sinh lớp 10 (2025 - 2026)</h4>
+    <p class="text-muted" id="landingNote">Dữ liệu mang tính tham khảo. Mọi sai sót vui lòng liên hệ nhà trường.</p>
+    <button id="startBtn" class="btn btn-primary btn-lg" onclick="startApp()">🚀 Bắt đầu tra cứu</button>
   </div>
 
   <!-- Main App -->
   <div id="mainApp" class="container py-4 d-none position-relative">
     <button class="btn btn-outline-dark btn-sm btn-toggle-mode no-print" onclick="toggleDarkMode()">🌓</button>
 
-    <h3 class="text-primary text-center mb-4">🎓 Tra cứu kết quả tuyển sinh lớp 10</h3>
+    <h3 id="mainTitle" class="text-primary text-center mb-4">🎓 Tra cứu kết quả tuyển sinh lớp 10</h3>
 
     <div class="row g-3 align-items-end no-print mb-3">
       <div class="col-md-3"><input type="text" id="searchInput" class="form-control" placeholder="Tìm theo tên hoặc SBD"></div>
@@ -49,12 +58,12 @@
         <option value="Trượt">⚠️ Trượt</option>
       </select></div>
       <div class="col-md-2"><input type="number" id="filterMin" class="form-control" placeholder="Điểm từ"></div>
-      <div class="col-md-1 d-grid"><button class="btn btn-primary" onclick="renderTable()">Lọc</button></div>
+      <div class="col-md-1 d-grid"><button id="filterBtn" class="btn btn-primary" onclick="renderTable()">Lọc</button></div>
     </div>
 
     <div class="form-check form-switch no-print mb-3">
       <input class="form-check-input" type="checkbox" role="switch" id="toggleCard" onchange="renderTable()">
-      <label class="form-check-label" for="toggleCard">Hiển thị dạng thẻ học sinh</label>
+     <label id="labelShowCard" class="form-check-label" for="toggleCard">Hiển thị dạng thẻ học sinh</label>
     </div>
 
     <div id="tableContainer" class="table-responsive">
@@ -127,7 +136,7 @@
 
 <footer class="text-center mt-5 text-muted small no-print">
   <hr/>
-  <p>© 2025 – Hệ thống tra cứu tuyển sinh. Thiết kế và phát triển bởi <strong>Truong Minh Khiem</strong> (A6 – Khóa 2023–2026).</p>
+  <p id="footerText">© 2025 – Hệ thống tra cứu tuyển sinh. Thiết kế và phát triển bởi <strong>Truong Minh Khiem</strong> (A6 – Khóa 2023–2026).</p>
 </footer>
 </body>
 </html>
