@@ -2,34 +2,110 @@ let students = [];
 let lang = "vi";
 const i18n = {
   vi: {
+    start: "🚀 Bắt đầu tra cứu",
+    landingTitle: "Trường THPT Võ Văn Kiệt",
+    landingSubtitle: "Hệ thống tra cứu điểm tuyển sinh lớp 10 (2025 - 2026)",
+    landingNote: "Dữ liệu mang tính tham khảo. Mọi sai sót vui lòng liên hệ nhà trường.",
+    mainTitle: "🎓 Tra cứu kết quả tuyển sinh lớp 10",
+    searchPlaceholder: "Tìm theo tên hoặc SBD",
+    school: "🏫 Trường",
+    class: "📘 Lớp",
+    result: "🎯 Kết quả",
+    pass: "Đạt",
+    fail: "Trượt",
+    min: "Điểm từ",
+    filter: "Lọc",
+    showCards: "Hiển thị dạng thẻ học sinh",
+    noResult: "Không tìm thấy kết quả phù hợp.",
+    detailBtn: "Chi tiết",
+    nameLabel: "Họ tên",
+    idLabel: "SBD",
+    schoolLabel: "Trường",
+    classLabel: "Lớp",
+    scoreLabel: "Điểm",
+    priorityLabel: "UT",
+    bonusLabel: "KK",
+    totalLabel: "Tổng điểm",
+    pdfTitle: "PHIẾU TRA CỨU KẾT QUẢ TUYỂN SINH",
     detailTitle: "Thông tin học sinh",
     export: "Xuất PDF",
     close: "Đóng",
     chartSchool: "Điểm TB theo trường",
     chartHocLuc: "Phân loại học lực",
     chartLop: "Điểm TB theo lớp",
-    chartMon: "Điểm TB theo môn"
+    chartMon: "Điểm TB theo môn",
+    footer: "© 2025 – Hệ thống tra cứu tuyển sinh. Thiết kế và phát triển bởi <strong>Truong Minh Khiem</strong> (A6 – Khóa 2023–2026)."
   },
   en: {
+    start: "🚀 Start lookup",
+    landingTitle: "Vo Van Kiet High School",
+    landingSubtitle: "Entrance exam results lookup (2025 - 2026)",
+    landingNote: "Data is for reference only. Please contact the school for corrections.",
+    mainTitle: "🎓 Search entrance exam results",
+    searchPlaceholder: "Search by name or ID",
+    school: "🏫 School",
+    class: "📘 Class",
+    result: "🎯 Result",
+    pass: "Pass",
+    fail: "Fail",
+    min: "Min score",
+    filter: "Filter",
+    showCards: "Show student cards",
+    noResult: "No matching results found.",
+    detailBtn: "Details",
+    nameLabel: "Name",
+    idLabel: "ID",
+    schoolLabel: "School",
+    classLabel: "Class",
+    scoreLabel: "Score",
+    priorityLabel: "Priority",
+    bonusLabel: "Bonus",
+    totalLabel: "Total",
+    pdfTitle: "ENTRANCE EXAM RESULTS",
     detailTitle: "Student Information",
     export: "Export PDF",
     close: "Close",
     chartSchool: "Average score by school",
     chartHocLuc: "Academic classification",
-    chartLop: "Average score by class",
-    chartMon: "Average score by subject"
+    chartLop: "Average score by class",    
+    chartMon: "Average score by subject",
+    footer: "© 2025 – Lookup system. Designed by <strong>Truong Minh Khiem</strong>."
   }
 };
 
 function setLang(l) {
   lang = l;
-  document.querySelector(".modal-title").innerText = i18n[lang].detailTitle;
-  document.querySelector("#detailModal .btn-outline-primary").innerText = "📄 " + i18n[lang].export;
-  document.querySelector("#detailModal .btn-secondary").innerText = i18n[lang].close;
-  document.querySelector("h5.text-center.mb-3").innerText = "📊 " + i18n[lang].chartSchool;
-  document.querySelectorAll("h5.text-center.mb-3")[1].innerText = "📊 " + i18n[lang].chartHocLuc;
-  document.querySelectorAll("h5.text-center.mb-3")[2].innerText = "📘 " + i18n[lang].chartLop;
-  document.querySelectorAll("h5.text-center.mb-3")[3].innerText = "📚 " + i18n[lang].chartMon;
+  localStorage.setItem("lang", lang);
+  const t = i18n[lang];
+
+  document.getElementById("langSelect").value = lang;
+  document.getElementById("startBtn").innerText = t.start;
+  document.getElementById("landingTitle").innerText = t.landingTitle;
+  document.getElementById("landingSubtitle").innerText = t.landingSubtitle;
+  document.getElementById("landingNote").innerText = t.landingNote;
+  document.getElementById("mainTitle").innerText = t.mainTitle;
+  document.getElementById("searchInput").placeholder = t.searchPlaceholder;
+  document.querySelector("#filterSchool option").textContent = t.school;
+  document.querySelector("#filterClass option").textContent = t.class;
+  const opts = document.querySelectorAll("#filterResult option");
+  opts[0].textContent = t.result;
+  opts[1].textContent = `✅ ${t.pass}`;
+  opts[2].textContent = `⚠️ ${t.fail}`;
+  document.getElementById("filterMin").placeholder = t.min;
+  document.getElementById("filterBtn").innerText = t.filter;
+  document.getElementById("labelShowCard").innerText = t.showCards;
+  document.getElementById("noResult").innerText = t.noResult;
+
+  document.querySelector(".modal-title").innerText = t.detailTitle;
+  const exportBtn = document.querySelector("#detailModal .btn-outline-primary");
+  if (exportBtn) exportBtn.innerText = "📄 " + t.export;
+  document.querySelector("#detailModal .btn-secondary").innerText = t.close;
+  document.querySelector("h5.text-center.mb-3").innerText = "📊 " + t.chartSchool;
+  document.querySelectorAll("h5.text-center.mb-3")[1].innerText = "📊 " + t.chartHocLuc;
+  document.querySelectorAll("h5.text-center.mb-3")[2].innerText = "📘 " + t.chartLop;
+  document.querySelectorAll("h5.text-center.mb-3")[3].innerText = "📚 " + t.chartMon;
+  document.getElementById("footerText").innerHTML = t.footer;
+  document.title = `${t.landingSubtitle} - ${t.landingTitle}`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -44,6 +120,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (localStorage.getItem("darkMode") === "true") {
     document.body.classList.add("dark-mode");
   }
+  const savedLang = localStorage.getItem("lang") || lang;
+  setLang(savedLang);
 });
 
 function populateFilters() {
@@ -92,13 +170,14 @@ function renderTable() {
     if (useCard) {
       const div = document.createElement("div");
       div.className = "col-md-4";
+      const t = i18n[lang];
       div.innerHTML = `
         <div class="card-student ${s["Kết quả"] === "Trượt" ? "highlight-fail" : ""}">
           <h5>${s["Họ và tên"]} (${s["SBD"]})</h5>
-          <p><strong>Trường:</strong> ${s["Trường"]}</p>
-          <p><strong>Lớp:</strong> ${s["Lớp"]}</p>
-          <p><strong>Điểm:</strong> ${s["Tổng điểm"]} – ${s["Kết quả"]}</p>
-          <button class="btn btn-sm btn-outline-primary" onclick='showDetail(${JSON.stringify(s)})'>Chi tiết</button>
+          <p><strong>${t.schoolLabel}:</strong> ${s["Trường"]}</p>
+          <p><strong>${t.classLabel}:</strong> ${s["Lớp"]}</p>
+          <p><strong>${t.scoreLabel}:</strong> ${s["Tổng điểm"]} – ${s["Kết quả"]}</p>
+          <button class="btn btn-sm btn-outline-primary" onclick='showDetail(${JSON.stringify(s)})'>${t.detailBtn}</button>
         </div>`;
       card.appendChild(div);
     } else {
@@ -129,14 +208,16 @@ function toggleDarkMode() {
 
 function showDetail(s) {
   const b = document.getElementById("modalBody");
+  const t = i18n[lang];
   b.innerHTML = `
-    <p><strong>Họ tên:</strong> ${s["Họ và tên"]}</p>
-    <p><strong>SBD:</strong> ${s["SBD"]}</p>
-    <p><strong>Trường:</strong> ${s["Trường"]}</p>
     <p><strong>Lớp:</strong> ${s["Lớp"]}</p>
+    <p><strong>${t.nameLabel}:</strong> ${s["Họ và tên"]}</p>
+    <p><strong>${t.idLabel}:</strong> ${s["SBD"]}</p>
+    <p><strong>${t.schoolLabel}:</strong> ${s["Trường"]}</p>
+    <p><strong>${t.classLabel}:</strong> ${s["Lớp"]}</p>
     <p><strong>Văn:</strong> ${s["Ngữ văn"]}, <strong>Toán:</strong> ${s["Toán"]}, <strong>Anh:</strong> ${s["Tiếng Anh"]}</p>
-    <p><strong>UT:</strong> ${s["UT"]}, <strong>KK:</strong> ${s["KK"]}</p>
-    <p><strong>Tổng điểm:</strong> ${s["Tổng điểm"]} – <strong>${s["Kết quả"]}</strong></p>`;
+    <p><strong>${t.priorityLabel}:</strong> ${s["UT"]}, <strong>${t.bonusLabel}:</strong> ${s["KK"]}</p>
+    <p><strong>${t.totalLabel}:</strong> ${s["Tổng điểm"]} – <strong>${s["Kết quả"]}</strong></p>`;
   window.selectedStudent = s;
   new bootstrap.Modal(document.getElementById("detailModal")).show();
 }
@@ -146,12 +227,13 @@ function exportPDF() {
   const s = window.selectedStudent;
   const doc = new jsPDF();
   doc.setFontSize(12);
-  doc.text("PHIẾU TRA CỨU KẾT QUẢ TUYỂN SINH", 20, 20);
-  doc.text(`Họ tên: ${s["Họ và tên"]}`, 20, 30);
-  doc.text(`SBD: ${s["SBD"]} | Trường: ${s["Trường"]} | Lớp: ${s["Lớp"]}`, 20, 38);
+  const t = i18n[lang];
+  doc.text(t.pdfTitle, 20, 20);
+  doc.text(`${t.nameLabel}: ${s["Họ và tên"]}`, 20, 30);
+  doc.text(`${t.idLabel}: ${s["SBD"]} | ${t.schoolLabel}: ${s["Trường"]} | ${t.classLabel}: ${s["Lớp"]}`, 20, 38);
   doc.text(`Ngữ văn: ${s["Ngữ văn"]} | Toán: ${s["Toán"]} | Anh: ${s["Tiếng Anh"]}`, 20, 46);
-  doc.text(`Ưu tiên: ${s["UT"]} | KK: ${s["KK"]}`, 20, 54);
-  doc.text(`Tổng điểm: ${s["Tổng điểm"]} – ${s["Kết quả"]}`, 20, 62);
+  doc.text(`${t.priorityLabel}: ${s["UT"]} | ${t.bonusLabel}: ${s["KK"]}`, 20, 54);
+  doc.text(`${t.totalLabel}: ${s["Tổng điểm"]} – ${s["Kết quả"]}`, 20, 62);
   doc.save(`${s["SBD"]}_${s["Họ và tên"]}.pdf`);
 }
 
