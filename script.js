@@ -16,6 +16,10 @@ const i18n = {
     min: "Điểm từ",
     filter: "Lọc",
     showCards: "Hiển thị dạng thẻ học sinh",
+    exportCsv: "Xuất CSV",
+    showTop: "Xem Top 10",
+    hideTop: "Ẩn Top 10",
+    topTitle: "🏆 Top 10 thí sinh",
     noResult: "Không tìm thấy kết quả phù hợp.",
     detailBtn: "Chi tiết",
     nameLabel: "Họ tên",
@@ -51,6 +55,10 @@ const i18n = {
     min: "Min score",
     filter: "Filter",
     showCards: "Show student cards",
+    exportCsv: "Export CSV",
+    showTop: "Show Top 10",
+    hideTop: "Hide Top 10",
+    topTitle: "🏆 Top 10 students",
     noResult: "No matching results found.",
     detailBtn: "Details",
     nameLabel: "Name",
@@ -95,6 +103,15 @@ function setLang(l) {
   document.getElementById("filterBtn").innerText = t.filter;
   document.getElementById("labelShowCard").innerText = t.showCards;
   document.getElementById("noResult").innerText = t.noResult;
+  const csvBtn = document.getElementById("csvBtn");
+  if (csvBtn) csvBtn.innerText = `⬇️ ${t.exportCsv}`;
+  const topBtn = document.getElementById("topBtn");
+  if (topBtn) {
+    const showing = !document.getElementById("topContainer").classList.contains("d-none");
+    topBtn.innerText = showing ? t.hideTop : t.showTop;
+  }
+  const topTitle = document.querySelector("#topContainer h5");
+  if (topTitle) topTitle.innerText = t.topTitle;
 
   document.querySelector(".modal-title").innerText = t.detailTitle;
   const exportBtn = document.querySelector("#detailModal .btn-outline-primary");
@@ -115,6 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
     students = studentsData;
     populateFilters();
     renderTable();
+    updateTopList();
   };
   document.head.appendChild(script);
     if (localStorage.getItem("darkMode") === "true") {
@@ -140,35 +158,7 @@ function normalize(str) {
 function renderTable() {
   const kw = normalize(document.getElementById("searchInput").value.trim());
   const school = document.getElementById("filterSchool").value;
-  const lop = document.getElementById("filterClass").value;
-  const result = document.getElementById("filterResult").value;
-  const min = parseFloat(document.getElementById("filterMin").value) || 0;
-  const useCard = document.getElementById("toggleCard").checked;
-  const table = document.getElementById("tableContainer");
-  const card = document.getElementById("cardContainer");
-  const body = document.getElementById("tableBody");
-  body.innerHTML = "";
-  card.innerHTML = "";
-
-  const filtered = students.filter(s =>
-    (normalize(s["Họ và tên"]).includes(kw) || s["SBD"].toString().includes(kw)) &&
-    (school === "" || s["Trường"] === school) &&
-    (lop === "" || s["Lớp"] === lop) &&
-    (result === "" || s["Kết quả"] === result) &&
-    s["Tổng điểm"] >= min
-  );
-
-  table.classList.toggle("d-none", useCard);
-  card.classList.toggle("d-none", !useCard);
-
-  if (filtered.length === 0) {
-    document.getElementById("noResult").classList.remove("d-none");
-    return;
-  } else document.getElementById("noResult").classList.add("d-none");
-
-  filtered.forEach(s => {
-    if (useCard) {
-      const div = document.createElement("div");
+@@ -172,50 +190,52 @@ function renderTable() {
       div.className = "col-md-4";
       const t = i18n[lang];
       div.innerHTML = `
@@ -194,6 +184,8 @@ function renderTable() {
   });
 
   drawCharts(filtered);
+  window.filteredData = filtered;
+  updateTopList();
 }
 
 function startApp() {
@@ -219,65 +211,7 @@ function showDetail(s) {
     <p><strong>${t.priorityLabel}:</strong> ${s["UT"]}, <strong>${t.bonusLabel}:</strong> ${s["KK"]}</p>
     <p><strong>${t.totalLabel}:</strong> ${s["Tổng điểm"]} – <strong>${s["Kết quả"]}</strong></p>`;
   window.selectedStudent = s;
-  new bootstrap.Modal(document.getElementById("detailModal")).show();
-}
-
-function exportPDF() {
-  const { jsPDF } = window.jspdf;
-  const s = window.selectedStudent;
-  const doc = new jsPDF();
-  doc.setFontSize(12);
-  const t = i18n[lang];
-  doc.text(t.pdfTitle, 20, 20);
-  doc.text(`${t.nameLabel}: ${s["Họ và tên"]}`, 20, 30);
-  doc.text(`${t.idLabel}: ${s["SBD"]} | ${t.schoolLabel}: ${s["Trường"]} | ${t.classLabel}: ${s["Lớp"]}`, 20, 38);
-  doc.text(`Ngữ văn: ${s["Ngữ văn"]} | Toán: ${s["Toán"]} | Anh: ${s["Tiếng Anh"]}`, 20, 46);
-  doc.text(`${t.priorityLabel}: ${s["UT"]} | ${t.bonusLabel}: ${s["KK"]}`, 20, 54);
-  doc.text(`${t.totalLabel}: ${s["Tổng điểm"]} – ${s["Kết quả"]}`, 20, 62);
-  doc.save(`${s["SBD"]}_${s["Họ và tên"]}.pdf`);
-}
-
-function drawCharts(data) {
-  const groupAvg = (byKey, field) => {
-    const map = {};
-    data.forEach(s => {
-      const k = s[byKey];
-      if (!map[k]) map[k] = { sum: 0, count: 0 };
-      map[k].sum += s[field];
-      map[k].count++;
-    });
-    return Object.keys(map).map(k => ({ key: k, avg: (map[k].sum / map[k].count).toFixed(2) }));
-  };
-
-  const hocLuc = { "Đạt": 0, "Trượt": 0 };
-  data.forEach(s => {
-    hocLuc[s["Kết quả"]]++;
-  });
-
-  const ctxHL = document.getElementById("chartHocLuc").getContext("2d");
-  const ctxLop = document.getElementById("chartLop").getContext("2d");
-  const ctxMon = document.getElementById("chartMon").getContext("2d");
-  const ctxSchool = document.getElementById("chartSchool").getContext("2d");
-
-  if (window.hlChart) window.hlChart.destroy();
-  if (window.lopChart) window.lopChart.destroy();
-  if (window.monChart) window.monChart.destroy();
-  if (window.schoolChart) window.schoolChart.destroy();
-
-  window.hlChart = new Chart(ctxHL, {
-    type: "pie",
-    data: {
-      labels: Object.keys(hocLuc),
-      datasets: [{ data: Object.values(hocLuc), backgroundColor: ["#0d6efd", "#198754", "#ffc107", "#dc3545"] }]
-    }
-  });
-
-  const schoolStats = groupAvg("Trường", "Tổng điểm");
-  window.schoolChart = new Chart(ctxSchool, {
-    type: "bar",
-    data: {
-      labels: schoolStats.map(i => i.key),
-      datasets: [{ label: "TB điểm", data: schoolStats.map(i => i.avg), backgroundColor: "#6f42c1" }]
+@@ -281,25 +301,65 @@ function drawCharts(data) {
     }
   });
 
@@ -302,4 +236,44 @@ function drawCharts(data) {
       datasets: [{ label: "TB môn", data: monAvg, backgroundColor: "#20c997" }]
     }
   });
+}
+
+function updateTopList() {
+  const container = document.getElementById("topContainer");
+  if (!container) return;
+  const body = document.getElementById("topBody");
+  body.innerHTML = "";
+  const data = (window.filteredData || students)
+    .slice()
+    .sort((a, b) => b["Tổng điểm"] - a["Tổng điểm"])
+    .slice(0, 10);
+  data.forEach((s, i) => {
+    const row = document.createElement("tr");
+    row.innerHTML = `<td>${i + 1}</td><td>${s["SBD"]}</td><td>${s["Họ và tên"]}</td><td>${s["Tổng điểm"]}</td>`;
+    body.appendChild(row);
+  });
+}
+
+function toggleTop() {
+  const container = document.getElementById("topContainer");
+  container.classList.toggle("d-none");
+  const t = i18n[lang];
+  const btn = document.getElementById("topBtn");
+  btn.innerText = container.classList.contains("d-none") ? t.showTop : t.hideTop;
+  if (!container.classList.contains("d-none")) updateTopList();
+}
+
+function exportCSV() {
+  const data = window.filteredData || students;
+  let csv = Object.keys(data[0]).join(",") + "\n";
+  data.forEach(s => {
+    csv += Object.values(s).join(",") + "\n";
+  });
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "students.csv";
+  a.click();
+  URL.revokeObjectURL(url);
 }
