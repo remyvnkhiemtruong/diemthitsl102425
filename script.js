@@ -1,3 +1,4 @@
+//
 let students = [];
 let lang = "vi";
 const i18n = {
