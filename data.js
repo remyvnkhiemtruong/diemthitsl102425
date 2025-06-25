@@ -88,7 +88,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160008,
@@ -231,7 +231,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160019,
@@ -725,7 +725,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160057,
@@ -2129,7 +2129,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160165,
@@ -2246,7 +2246,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160174,
@@ -3507,7 +3507,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160271,
@@ -4339,7 +4339,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160335,
@@ -6822,7 +6822,7 @@ const studentsData = [
     "UT": 0.0,
     "KK": 0.0,
     "Tổng điểm": 10.5,
-    "Kết quả": "Đạt"
+    "Kết quả": "Trượt"
   },
   {
     "SBD": 160526,
