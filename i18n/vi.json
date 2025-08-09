@@ -1,0 +1,24 @@
+{
+  "appTitle": "Tra cứu điểm tuyển sinh lớp 10",
+  "search": "Tìm kiếm",
+  "reset": "Nhập lại",
+  "sbdPlaceholder": "Số báo danh",
+  "namePlaceholder": "Họ và tên",
+  "schoolFilter": "Trường",
+  "classFilter": "Lớp",
+  "resultFilter": "Kết quả",
+  "minScore": "Điểm tối thiểu",
+  "sortBy": "Sắp xếp theo",
+  "sortAsc": "Tăng dần",
+  "sortDesc": "Giảm dần",
+  "results": "Kết quả",
+  "noResults": "Không tìm thấy thí sinh nào",
+  "loading": "Đang tải dữ liệu...",
+  "exportCSV": "Xuất CSV",
+  "exportPDF": "Xuất PDF",
+  "darkMode": "Chế độ tối",
+  "chartTitle": "Phân phối tổng điểm"
+  ,
+  "shareLink": "Sao chép liên kết",
+  "linkCopied": "Đã sao chép liên kết!"
+}

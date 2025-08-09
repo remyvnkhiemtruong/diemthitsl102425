@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản trị dữ liệu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Trang quản trị dữ liệu</h1>
+    </header>
+    <main>
+      <p>Trang này cho phép nhập file CSV và chuyển đổi sang định dạng JSON cho hệ thống.</p>
+      <p>Chức năng này đang ở dạng mô phỏng. Bạn có thể tải file CSV và xem kết quả trong bảng bên dưới.</p>
+      <input type="file" id="csvFile" accept=".csv" />
+      <button id="parseBtn">Phân tích</button>
+      <table id="previewTable">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <script>
+      document.getElementById('parseBtn').addEventListener('click', () => {
+        const fileInput = document.getElementById('csvFile');
+        const file = fileInput.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = e => {
+          const text = e.target.result;
+          const lines = text.split(/\r?\n/).filter(l => l.trim());
+          const headers = lines[0].split(',');
+          const tbody = document.querySelector('#previewTable tbody');
+          const thead = document.querySelector('#previewTable thead');
+          tbody.innerHTML = '';
+          thead.innerHTML = '';
+          // Render headers
+          const trh = document.createElement('tr');
+          headers.forEach(h => {
+            const th = document.createElement('th');
+            th.textContent = h;
+            trh.appendChild(th);
+          });
+          thead.appendChild(trh);
+          // Render rows
+          lines.slice(1).forEach(line => {
+            const cols = line.split(',');
+            const tr = document.createElement('tr');
+            cols.forEach(col => {
+              const td = document.createElement('td');
+              td.textContent = col;
+              tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+          });
+        };
+        reader.readAsText(file);
+      });
+    </script>
+  </body>
+</html>

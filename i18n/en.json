@@ -1,0 +1,24 @@
+{
+  "appTitle": "High school entrance exam scores lookup",
+  "search": "Search",
+  "reset": "Reset",
+  "sbdPlaceholder": "Student ID",
+  "namePlaceholder": "Full name",
+  "schoolFilter": "School",
+  "classFilter": "Class",
+  "resultFilter": "Result",
+  "minScore": "Minimum score",
+  "sortBy": "Sort by",
+  "sortAsc": "Ascending",
+  "sortDesc": "Descending",
+  "results": "Results",
+  "noResults": "No students found",
+  "loading": "Loading data...",
+  "exportCSV": "Export CSV",
+  "exportPDF": "Export PDF",
+  "darkMode": "Dark mode",
+  "chartTitle": "Score distribution"
+  ,
+  "shareLink": "Copy link",
+  "linkCopied": "Link copied!"
+}

@@ -1,394 +1,113 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tra cứu điểm tuyển sinh lớp 10 THPT Võ Văn Kiệt năm học 2025-2026">
-    <title>Tra cứu điểm tuyển sinh lớp 10 - THPT Võ Văn Kiệt</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
-    <style>
-        :root {
-            --primary-color: #004d9e;
-            --primary-dark: #003a77;
-            --primary-light: #e6f0f9;
-            --accent-color: #ffa000;
-            --text-dark: #2c3345;
-            --text-light: #6b7280;
-            --white: #ffffff;
-            --gray-50: #f9fafb;
-            --gray-100: #f3f4f6;
-            --gray-200: #e5e7eb;
-        }
-
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-            color: var(--text-dark);
-            background: var(--gray-50);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .header {
-            background: var(--primary-color);
-            padding: 1.5rem 0;
-            color: var(--white);
-        }
-
-        .school-info {
-            text-align: center;
-            padding-left: 20px;
-        }
-
-        .logo-container {
-            flex-shrink: 0;
-        }
-
-        .school-logo {
-            width: 80px;
-            height: 80px;
-        }
-
-        .school-name {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            color: var(--white);
-        }
-
-        .school-location {
-            font-size: 1.3rem;
-            font-weight: 600;
-            opacity: 0.95;
-            margin-bottom: 0;
-            color: var(--white);
-        }
-
-        .main-content {
-            flex: 1;
-            padding: 2rem 0;
-        }
-
-        .search-container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .search-title {
-            color: var(--primary-color);
-            font-weight: 600;
-        }
-
-        .form-label {
-            font-weight: 500;
-            color: var(--text-dark);
-        }
-
-        .form-control {
-            border-color: var(--gray-200);
-            padding: 0.75rem;
-        }
-
-        .form-control:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 0.2rem var(--primary-light);
-        }
-
-        .result-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .result-header {
-            border-bottom: 2px solid var(--gray-100);
-            padding-bottom: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .result-content {
-            font-size: 1rem;
-        }
-
-        .result-table {
-            margin-bottom: 0;
-        }
-
-        .result-table th {
-            width: 35%;
-            background-color: var(--gray-50);
-            font-weight: 600;
-        }
-
-        .result-table td {
-            width: 65%;
-        }
-
-        .total-score {
-            font-weight: 700;
-            font-size: 1.1rem;
-            background-color: var(--primary-light);
-        }
-
-        .text-success {
-            color: #198754 !important;
-        }
-
-        .text-danger {
-            color: #dc3545 !important;
-        }
-
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-            padding: 0.75rem 2rem;
-            font-weight: 500;
-        }
-
-        .btn-primary:hover {
-            background-color: var(--primary-dark);
-            border-color: var(--primary-dark);
-        }
-
-        .btn-outline {
-            color: var(--primary-color);
-            border-color: var(--primary-color);
-            background-color: transparent;
-            padding: 0.75rem 1.5rem;
-            font-weight: 500;
-        }
-
-        .btn-outline:hover {
-            color: var(--white);
-            background-color: var(--primary-color);
-        }
-
-        .loading-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.8);
-            display: none;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-        }
-
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid var(--gray-100);
-            border-top-color: var(--primary-color);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-        }
-
-        .footer {
-            background: var(--white);
-            border-top: 1px solid var(--gray-200);
-            padding: 1rem 0;
-            margin-top: auto;
-        }
-
-        .footer-content {
-            color: var(--text-light);
-            font-size: 0.9rem;
-        }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        @media print {
-            .btn-group {
-                display: none;
-            }
-            .loading-overlay {
-                display: none !important;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .school-name {
-                font-size: 1.5rem;
-            }
-
-            .btn-group {
-                flex-direction: column;
-                gap: 0.5rem;
-            }
-
-            .btn-outline {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="d-flex align-items-center justify-content-center">
-                <div class="logo-container me-3">
-                    <img src="logo.png" alt="Logo trường THPT Võ Văn Kiệt" class="school-logo">
-                </div>
-                <div class="school-info">
-                    <h1 class="school-name mb-2">SỞ GDĐT CÀ MAU</h1>
-                    <h1 class="school-location">Trường THPT Võ Văn Kiệt</h1>
-                </div>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tra cứu điểm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#004d9e" />
+  </head>
+  <body>
+    <header>
+      <h1 id="appTitle">Tra cứu điểm</h1>
+      <label class="toggle">
+        <input type="checkbox" id="darkToggle" />
+        <span id="darkLabel">Chế độ tối</span>
+      </label>
     </header>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <div class="container py-4">
-            <div class="search-container bg-white rounded shadow-sm p-4 mb-4">
-                <h2 class="search-title text-center mb-4">TRA CỨU THÔNG TIN TUYỂN SINH LỚP 10</h2>
-                <form id="searchForm" class="mb-4">
-                    <div class="mb-3">
-                        <label for="sbd" class="form-label">Số báo danh</label>
-                        <input type="text" class="form-control" id="sbd" required>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary px-4">
-                            <i class="fas fa-search me-2"></i>Tra cứu
-                        </button>
-                    </div>
-                </form>
-
-                <!-- Lưu ý và thông tin liên hệ -->
-                <div class="alert alert-info mt-4 mb-0">
-                    <h5 class="alert-heading">
-                        <i class="fas fa-info-circle me-2"></i>Lưu ý quan trọng
-                    </h5>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2">
-                            <i class="fas fa-check-circle text-success me-2"></i>
-                            Nhập chính xác số báo danh (6 số) để tra cứu kết quả
-                        </li>
-                        <li class="mb-2">
-                            <i class="fas fa-clock text-warning me-2"></i>
-                            Thời gian tra cứu: 24/7
-                        </li>
-                        <li class="mb-2">
-                            <i class="fas fa-exclamation-triangle text-danger me-2"></i>
-                            Nếu gặp khó khăn khi tra cứu, vui lòng liên hệ:
-                        </li>
-                        <li class="ms-4">
-                            <a href="https://www.facebook.com/remyvn.khiemtruong" target="_blank" class="text-decoration-none">
-                                <i class="fab fa-facebook text-primary me-2"></i>
-                                Facebook: Trương Minh Khiêm
-                            </a>
-                        </li>
-                        <li class="ms-4 mt-2">
-                            <i class="fas fa-phone-alt text-success me-2"></i>
-                            Số điện thoại: 0385844458
-                        </li>
-                        <li class="ms-4">
-                            <i class="fas fa-envelope text-danger me-2"></i>
-                            Email: truongminhkhiemvta@gmail.com
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div id="resultContainer" class="result-container bg-white rounded shadow-sm p-4" style="display: none;">
-                <div class="result-header d-flex justify-content-between align-items-center mb-4">
-                    <h3 class="mb-0">Kết quả</h3>
-                </div>
-                
-                <div class="result-content">
-                    <table class="result-table table table-bordered">
-                        <tr>
-                            <th>Số báo danh:</th>
-                            <td id="resultSBD"></td>
-                        </tr>
-                        <tr>
-                            <th>Họ và tên:</th>
-                            <td id="resultName"></td>
-                        </tr>
-                        <tr>
-                            <th>Trường:</th>
-                            <td id="resultSchool"></td>
-                        </tr>
-                        <tr>
-                            <th>Lớp:</th>
-                            <td id="resultClass"></td>
-                        </tr>
-                        <tr>
-                            <th>Điểm Ngữ văn:</th>
-                            <td id="resultLiterature"></td>
-                        </tr>
-                        <tr>
-                            <th>Điểm Toán:</th>
-                            <td id="resultMath"></td>
-                        </tr>
-                        <tr>
-                            <th>Điểm Tiếng Anh:</th>
-                            <td id="resultEnglish"></td>
-                        </tr>
-                        <tr>
-                            <th>Điểm ưu tiên:</th>
-                            <td id="resultUT"></td>
-                        </tr>
-                        <tr>
-                            <th>Điểm khuyến khích:</th>
-                            <td id="resultKK"></td>
-                        </tr>
-                        <tr class="total-score">
-                            <th>Tổng điểm:</th>
-                            <td id="resultTotal"></td>
-                        </tr>
-                        <tr>
-                            <th>Kết quả:</th>
-                            <td id="resultStatus"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+    <main>
+      <form id="searchForm" class="filters" aria-label="Search form">
+        <input type="text" id="sbdInput" placeholder="SBD" aria-label="Số báo danh" />
+        <input type="text" id="nameInput" placeholder="Họ và tên" aria-label="Họ và tên" />
+        <select id="schoolFilter" aria-label="Trường">
+          <option value="">--Trường--</option>
+        </select>
+        <select id="classFilter" aria-label="Lớp">
+          <option value="">--Lớp--</option>
+        </select>
+        <select id="resultFilter" aria-label="Kết quả">
+          <option value="">--Kết quả--</option>
+          <option value="Đạt">Đạt</option>
+          <option value="Trượt">Trượt</option>
+        </select>
+        <input type="number" id="minScore" min="0" step="0.1" placeholder="Điểm tối thiểu" aria-label="Điểm tối thiểu" />
+        <select id="sortField" aria-label="Sắp xếp theo">
+          <option value="">--Sắp xếp--</option>
+          <option value="total">Tổng điểm</option>
+          <option value="fullname">Tên</option>
+          <option value="sbd">SBD</option>
+        </select>
+        <select id="sortOrder" aria-label="Thứ tự">
+          <option value="asc">Tăng dần</option>
+          <option value="desc">Giảm dần</option>
+        </select>
+        <button type="submit" id="searchBtn">Tìm</button>
+        <button type="button" id="resetBtn" class="secondary">Nhập lại</button>
+      </form>
+      <section id="resultsSection" aria-label="Kết quả">
+        <table id="resultsTable">
+          <thead>
+            <tr>
+              <th>SBD</th>
+              <th>Họ và tên</th>
+              <th>Trường</th>
+              <th>Lớp</th>
+              <th>Toán</th>
+              <th>Ngữ văn</th>
+              <th>Tiếng Anh</th>
+              <th>Tổng điểm</th>
+              <th>Kết quả</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="pagination" id="pagination">
+          <button type="button" id="prevPage">&laquo;</button>
+          <span id="pageInfo">1/1</span>
+          <button type="button" id="nextPage">&raquo;</button>
         </div>
+        <div>
+          <button type="button" id="exportCsv">Xuất CSV</button>
+          <button type="button" id="exportPdf" class="secondary">Xuất PDF</button>
+          <button type="button" id="shareLink" class="secondary">Sao chép liên kết</button>
+        </div>
+      </section>
+      <section class="chart-container">
+        <h2 id="chartTitle">Phân phối tổng điểm</h2>
+        <div id="chart" class="bar-chart" role="figure" aria-label="Biểu đồ phân phối"></div>
+      </section>
     </main>
-
-    <!-- Footer -->
-    <footer class="footer mt-auto">
-        <div class="container">
-            <div class="footer-content text-center py-3">
-                <div class="social-links mb-2">
-                    <a href="https://www.facebook.com/remyvn.khiemtruong" target="_blank" class="text-decoration-none mx-2">
-                        <i class="fab fa-facebook text-primary"></i>
-                    </a>
-                    <a href="mailto:truongminhkhiemvta@gmail.com" class="text-decoration-none mx-2">
-                        <i class="fas fa-envelope text-danger"></i>
-                    </a>
-                    <a href="tel:0385844458" class="text-decoration-none mx-2">
-                        <i class="fas fa-phone-alt text-success"></i>
-                    </a>
-                </div>
-                <p class="mb-0">&copy; 2025 Truong Minh Khiem - A6 (2023 - 2026)</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Loading Overlay -->
-    <div id="loadingOverlay" class="loading-overlay">
-        <div class="spinner"></div>
+    <footer id="footer">© 2025 by Truong Minh Khiem</footer>
+    <!-- Student detail modal -->
+    <div id="studentModal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button id="closeModal" class="modal-close" aria-label="Close">×</button>
+        <h2 id="modalTitle">Thông tin thí sinh</h2>
+        <p><strong id="labelSBD">SBD:</strong> <span id="modalSBD"></span></p>
+        <p><strong id="labelName">Họ và tên:</strong> <span id="modalName"></span></p>
+        <p><strong id="labelDOB">Ngày sinh:</strong> <span id="modalDOB"></span></p>
+        <p><strong id="labelPOB">Nơi sinh:</strong> <span id="modalPOB"></span></p>
+        <p><strong id="labelSchool">Trường:</strong> <span id="modalSchool"></span></p>
+        <p><strong id="labelClass">Lớp:</strong> <span id="modalClass"></span></p>
+        <p><strong id="labelMath">Toán:</strong> <span id="modalMath"></span></p>
+        <p><strong id="labelLiterature">Ngữ văn:</strong> <span id="modalLiterature"></span></p>
+        <p><strong id="labelEnglish">Tiếng Anh:</strong> <span id="modalEnglish"></span></p>
+        <p><strong id="labelBonus">Điểm cộng:</strong> <span id="modalBonus"></span></p>
+        <p><strong id="labelTotal">Tổng điểm:</strong> <span id="modalTotal"></span></p>
+        <p><strong id="labelResult">Kết quả:</strong> <span id="modalResult"></span></p>
+        <button id="exportStudentPdf" class="secondary">Xuất phiếu điểm</button>
+      </div>
     </div>
-
-    <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="data10.js"></script>
-    <script src="tuyensinh.js"></script>
-</body>
+    <div id="loadingOverlay" role="alert">Loading...</div>
+    <!-- Load pre-bundled student data when running via file:// to avoid fetch restrictions -->
+    <script src="data/full.js"></script>
+    <script src="script.js"></script>
+    <script>
+      // Register service worker
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js');
+      }
+    </script>
+  </body>
 </html>
